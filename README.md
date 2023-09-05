@@ -2,7 +2,7 @@
 
 This is a Pokedex app that allows users to browse and search for information about Pokémon using the PokeAPI. Users can view detailed information, images, and filter Pokémon by type or name.
 
-![Screenshot](screenshot/screenshot.png)
+![Screenshot](screenshot/pokedex.png)
 
 ## Features
 
