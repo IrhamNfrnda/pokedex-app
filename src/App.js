@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
 import Home from "./pages/Home";
-import Detail from "./pages/Detail";
+import PokemonDetail from "./pages/PokemonDetail";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -13,8 +13,8 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/detail/:id",
-    element: <Detail />,
+    path: "/pokemon/:pokemonId",
+    element: <PokemonDetail />,
   }
 ])
 
